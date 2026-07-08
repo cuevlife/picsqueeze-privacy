@@ -1,217 +1,111 @@
 <!DOCTYPE html>
-<html lang="th">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - PicSqueeze</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.7;
-            color: #1a1a2e;
-            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-            min-height: 100vh;
-            padding: 40px 20px;
-        }
-        .container {
-            max-width: 800px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 720px;
             margin: 0 auto;
-            background: rgba(255,255,255,0.95);
-            border-radius: 20px;
-            padding: 50px 40px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            padding: 40px 20px;
+            background: #fff;
         }
         h1 {
-            font-size: 2.2em;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-bottom: 10px;
+            font-size: 1.8em;
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: #111;
         }
-        .subtitle {
-            color: #666;
-            font-size: 0.95em;
-            margin-bottom: 30px;
-            padding-bottom: 20px;
-            border-bottom: 2px solid #eee;
+        .date {
+            color: #888;
+            font-size: 0.9em;
+            margin-bottom: 32px;
+            display: block;
         }
         h2 {
-            font-size: 1.3em;
-            color: #302b63;
-            margin: 30px 0 12px;
-            padding-left: 12px;
-            border-left: 4px solid #667eea;
+            font-size: 1.15em;
+            font-weight: 600;
+            margin-top: 28px;
+            margin-bottom: 8px;
+            color: #111;
         }
-        p, li {
+        p {
+            margin: 8px 0;
             color: #444;
-            font-size: 0.95em;
         }
         ul {
-            margin: 10px 0 10px 24px;
+            margin: 8px 0 8px 20px;
+            color: #444;
         }
         li {
-            margin-bottom: 8px;
+            margin-bottom: 6px;
         }
-        .highlight {
-            background: linear-gradient(135deg, #e8f5e9, #f1f8e9);
-            border-radius: 12px;
-            padding: 20px;
-            margin: 20px 0;
-            border-left: 4px solid #4caf50;
+        a {
+            color: #1a73e8;
+            text-decoration: none;
         }
-        .highlight strong {
-            color: #2e7d32;
+        a:hover {
+            text-decoration: underline;
         }
-        .warning {
-            background: linear-gradient(135deg, #fff3e0, #fce4ec);
-            border-radius: 12px;
-            padding: 20px;
-            margin: 20px 0;
-            border-left: 4px solid #ff9800;
+        strong {
+            color: #111;
         }
         .contact {
-            background: linear-gradient(135deg, #e3f2fd, #e8eaf6);
-            border-radius: 12px;
-            padding: 20px;
-            margin: 20px 0;
-            text-align: center;
-        }
-        .badge {
-            display: inline-block;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 0.8em;
-            margin-right: 8px;
+            margin-top: 32px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
         }
         footer {
-            text-align: center;
-            margin-top: 30px;
-            padding-top: 20px;
-            border-top: 1px solid #eee;
+            margin-top: 40px;
+            padding-top: 16px;
+            border-top: 1px solid #e0e0e0;
             color: #999;
             font-size: 0.85em;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Privacy Policy</h1>
-        <p class="subtitle">Last updated: July 8, 2026 &bull; PicSqueeze by KraniazDEV</p>
+    <h1>Privacy Policy</h1>
+    <span class="date">Effective date: July 8, 2026</span>
 
-        <div class="highlight">
-            <strong>TL;DR:</strong> PicSqueeze processes images <strong>entirely on your device</strong>.
-            We never upload, store, or share your photos. The only data that leaves your device
-            is anonymous ad information handled by Google AdMob.
-        </div>
+    <p>PicSqueeze ("the App") is an image compression tool for Android. This policy explains what data the App handles and how.</p>
 
-        <h2>1. Introduction</h2>
-        <p>
-            Welcome to PicSqueeze ("the App"), an image compression application for Android devices.
-            This Privacy Policy explains how we handle information when you use our App.
-            We are committed to protecting your privacy and being transparent about our practices.
-        </p>
+    <h2>Photos and images</h2>
+    <p>All image processing happens on your device. Photos are read from your gallery, compressed in memory, and saved back to your device. No images are uploaded to any server. The App has no backend and no account system.</p>
 
-        <h2>2. Information We Do NOT Collect</h2>
-        <p>PicSqueeze is designed with privacy in mind. We do <strong>not</strong> collect:</p>
-        <ul>
-            <li><strong>Your photos or images</strong> &mdash; All image processing happens locally on your device. Images are never uploaded to any server.</li>
-            <li><strong>Personal identification information</strong> &mdash; We do not require registration, login, or any personal details.</li>
-            <li><strong>Location data</strong> &mdash; We do not access or collect your location.</li>
-            <li><strong>Contacts or call logs</strong> &mdash; We do not access your contacts, messages, or phone logs.</li>
-            <li><strong>Camera or microphone</strong> &mdash; We do not access your camera or microphone.</li>
-            <li><strong>EXIF metadata</strong> &mdash; While the App can read and preserve/strip EXIF data during compression, this data is processed locally and never transmitted.</li>
-            <li><strong>File names or content</strong> &mdash; We do not collect information about your files.</li>
-        </ul>
+    <h2>Personal information</h2>
+    <p>The App does not collect names, email addresses, phone numbers, location data, contacts, or any other personally identifiable information.</p>
 
-        <h2>3. Information Handled by Third-Party Services</h2>
-        <p>
-            PicSqueeze uses <strong>Google AdMob</strong> to display advertisements. AdMob may automatically collect certain information for ad serving and personalization:
-        </p>
-        <ul>
-            <li>Device advertising ID (with user opt-out capability)</li>
-            <li>Device model, operating system version, and screen density</li>
-            <li>Language settings and timezone</li>
-            <li>Network connectivity state</li>
-            <li>Ad interaction events (impressions and clicks)</li>
-        </ul>
-        <p>
-            This information is collected and processed by Google according to
-            <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.
-            We do not have access to or control over this data.
-        </p>
+    <h2>Local storage</h2>
+    <p>The App stores two values on your device using Android DataStore: a coin balance (integer) and a lifetime PRO flag (boolean). This data never leaves your device and is removed when you uninstall the App.</p>
 
-        <div class="warning">
-            <strong>Important:</strong> You can opt out of personalized advertising by visiting
-            <a href="https://adssettings.google.com/" target="_blank">Google Ads Settings</a>
-            or by resetting your advertising ID in your device settings.
-        </div>
+    <h2>Advertising</h2>
+    <p>The App uses Google AdMob to display ads. AdMob may collect device information such as your advertising ID, device model, OS version, language, and network state. This collection is handled entirely by Google. For details, see <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. You can opt out of personalized ads in your device settings.</p>
 
-        <h2>4. How Your Images Are Processed</h2>
-        <ul>
-            <li><strong>Loading:</strong> Images are read from your device gallery using Android's built-in content resolver.</li>
-            <li><strong>Processing:</strong> Compression and resizing happen entirely in your device's memory.</li>
-            <li><strong>Saving:</strong> Compressed images are saved back to your device in the <code>Pictures/PicSqueeze</code> folder.</li>
-            <li><strong>Sharing:</strong> If you choose to share, images are sent directly to the app you select (e.g., messaging apps) via Android's share system.</li>
-            <li><strong>No upload:</strong> At no point are your images transmitted over the internet.</li>
-        </ul>
+    <h2>Permissions</h2>
+    <ul>
+        <li><strong>READ_MEDIA_IMAGES</strong> &mdash; required to select and compress photos from your gallery.</li>
+        <li><strong>ACCESS_NETWORK_STATE</strong> &mdash; required by AdMob to determine ad availability.</li>
+    </ul>
+    <p>The App does not request access to your camera, microphone, location, contacts, or any other sensitive permissions.</p>
 
-        <h2>5. Local Storage</h2>
-        <p>PicSqueeze stores only the following minimal data on your device:</p>
-        <ul>
-            <li><strong>Coin balance</strong> (integer) &mdash; tracks your available compression credits</li>
-            <li><strong>Lifetime PRO status</strong> (boolean) &mdash; whether you have unlocked premium features</li>
-        </ul>
-        <p>
-            This data is stored locally using Android DataStore and is never transmitted off your device.
-            It can be cleared by uninstalling the App.
-        </p>
+    <h2>Children</h2>
+    <p>The App is not directed at children under 13. We do not knowingly collect information from children.</p>
 
-        <h2>6. Children's Privacy</h2>
-        <p>
-            PicSqueeze is not directed at children under the age of 13.
-            We do not knowingly collect personal information from children.
-            If you are a parent or guardian and believe your child has provided us with personal information,
-            please contact us and we will take steps to delete such information.
-        </p>
+    <h2>Changes to this policy</h2>
+    <p>We may update this policy from time to time. The latest version will always be available at this URL.</p>
 
-        <h2>7. Data Security</h2>
-        <p>
-            We implement appropriate security measures to protect the information processed by our App.
-            Since all image processing occurs locally on your device, your photos are never exposed to network transmission through our App.
-        </p>
-
-        <h2>8. Changes to This Privacy Policy</h2>
-        <p>
-            We may update this Privacy Policy from time to time.
-            We will notify you of any changes by posting the new Privacy Policy on this page
-            and updating the "Last updated" date. You are advised to review this Privacy Policy periodically.
-        </p>
-
-        <h2>9. Your Rights</h2>
-        <p>Since we do not collect personal data, there is no personal data for us to access, modify, or delete. Your photos and data remain entirely under your control on your device.</p>
-
-        <h2>10. Third-Party Links</h2>
-        <p>
-            The App may contain advertisements that link to third-party websites.
-            We are not responsible for the privacy practices of these external sites.
-            We encourage you to read the privacy policy of every website you visit.
-        </p>
-
-        <div class="contact">
-            <span class="badge">Contact</span>
-            <p style="margin-top: 10px;">
-                If you have any questions about this Privacy Policy, please contact us at:<br>
-                <strong>cuevlife@gmail.com</strong>
-            </p>
-        </div>
-
-        <footer>
-            &copy; 2026 KraniazDEV. All rights reserved.<br>
-            PicSqueeze &mdash; Image Compression for Android
-        </footer>
+    <div class="contact">
+        <h2>Contact</h2>
+        <p>Questions about this policy? Email us at <a href="mailto:cuevlife@gmail.com">cuevlife@gmail.com</a>.</p>
     </div>
+
+    <footer>
+        &copy; 2026 KraniazDEV
+    </footer>
 </body>
 </html>
